@@ -1,0 +1,10 @@
+voiture = ["twingo", "ds", "opel"]
+marque = input("quelle marque veux tu ajouter à la liste ?")
+if marque.lower in voiture:
+    print ("on a déjà")
+else: 
+    voiture.append (marque.lower)
+    print("ok on l'ajoute")
+import random
+tirage = random.choice(voiture)
+print ("Bravo tu as gagné une " + tirage)
