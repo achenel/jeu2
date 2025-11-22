@@ -1,4 +1,8 @@
 import streamlit as st
+st.title("Test de déploiement")
+st.write("Si tu vois ce texte, l’app démarre bien.")
+
+import streamlit as st
 import random
 from datetime import datetime
 
